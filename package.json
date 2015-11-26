@@ -2,8 +2,10 @@
   "name": "basic-express-app",
   "version": "0.0.1",
   "private": true,
- "start": "node app.js",  
-"dependencies": {
+  "scripts":{
+ 	"start": "node app.js"
+  },  
+  "dependencies": {
     "express": "^4.13.3",
     "jade": "^1.11.0"
   }
